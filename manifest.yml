@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo-Personality-Haven
+  host: demo-Personality-Haven
+  disk_quota: 1024M
+  services:
+  - demo-Personality-Haven-personality_insights
